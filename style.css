@@ -14,11 +14,7 @@ iframe{
     width: auto;
 }
 #results{
-    justify-content: center;
-        margin: auto;
-        display: inline-gr;
-        grid-template-columns: auto auto;
-        padding: 5px;
+    display: block;
 }
 #searchbutton{
     padding: 7px;
