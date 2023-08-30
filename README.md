@@ -2,7 +2,7 @@
 Get anyones github stats using their username
 and view their streaks and grade and more try it yourself at
 
-![Alt text](image.png)
+![Alt text](/images/gh-statsview.gif)
 
 # Installation
 ```
