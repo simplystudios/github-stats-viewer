@@ -16,6 +16,12 @@ iframe{
 #results{
     display: block;
 }
+.profilegit{
+    padding: 0px;
+}
+#pfp{
+    border-radius: 100%;
+}
 #searchbutton{
     padding: 7px;
     margin-left: auto;
@@ -30,6 +36,7 @@ iframe{
     border: 0;
     margin-right: auto;
     border-radius: 5px;
+    width: auto;
     color: white;
     padding: 5px;
     background-color: transparent;
@@ -40,7 +47,7 @@ iframe{
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: 400px;
+    width: auto;
     border-radius: 10px;
 }
 .res{
