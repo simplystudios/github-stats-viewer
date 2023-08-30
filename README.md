@@ -7,7 +7,7 @@ and view their streaks and grade and more try it yourself at
 # Installation
 ```
 git clone 
-run main.html
+run index.html
 go to localhost and view
 ```
 
