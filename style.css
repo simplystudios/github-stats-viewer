@@ -33,12 +33,12 @@ iframe{
     height: 40px;
 }
 .search{
+    display: flex;
     border: 0;
-    margin-right: auto;
     border-radius: 5px;
-    width: auto;
+    width: 370px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     background-color: transparent;
 }
 .searchbar{
@@ -47,7 +47,7 @@ iframe{
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: auto;
+    width: 500px;
     border-radius: 10px;
 }
 .res{
@@ -77,4 +77,20 @@ iframe{
 .textstuff{
     margin-right: auto;
     margin-left: auto;
+}
+@media screen and (max-width: 720px) {
+    .heading{
+        display: flex;
+        text-align: center;
+        border: 1;
+        border-color: rgb(207, 207, 207);
+        background-color: #21232b;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .search{
+        width: calc(100% - 80px);
+    }
 }
