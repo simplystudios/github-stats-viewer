@@ -53,6 +53,11 @@ iframe{
 .res{
     display: flex;
 }
+#commits{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 .heading{
     display: flex;
     text-align: center;
@@ -78,6 +83,58 @@ iframe{
     margin-right: auto;
     margin-left: auto;
 }
+        .footer {
+            color: white;
+            position: relative;
+            height: 4em;
+            background-color: var(--backcolor);
+            padding: 30px;
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .logo {
+            color: #898b91;
+            font-size: 20px;
+            margin-right: 10px;
+            padding: 0px;
+            font-weight: bold;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .logoimg{
+            width: 30px;
+            margin-top: auto;
+            margin-bottom: -5px;
+            margin-right: 3px;
+        }
+    
+        .footer-nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .footer-nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+    
+        a {
+            text-decoration: none;
+            color: #a7a7a7;
+        }
+    
+        .social-icons a {
+            margin-left: 10px;
+            color: rgb(255, 253, 250);
+            font-size: 20px;
+        }
+        a:hover{
+            color: #2d4955;
+        }
 @media screen and (max-width: 720px) {
     .heading{
         display: flex;
@@ -90,6 +147,11 @@ iframe{
         border-radius: 10px;
         margin-bottom: 20px;
     }
+        #commits {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
     .search{
         width: calc(100% - 80px);
     }

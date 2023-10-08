@@ -1,5 +1,6 @@
 const Button = document.getElementById('searchbutton')
 const Uiid = document.getElementById('search')
+const commitgraph = document.getElementById('commits')
 
 async function apiget(api) {
  const response = await fetch(api)
@@ -22,6 +23,7 @@ const Search = () => {
             document.getElementById("streak").src = `https://streak-stats.demolab.com?user=${username}&theme=react&show_icons=true&hide_border=true&count_private=true`;
             document.getElementById("languse").src = `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&theme=react&show_icons=true&hide_border=true&layout=compact`;
             document.getElementById("name").textContent = `Stats for ${username}`
+            commitgraph.src=`https://ghchart.rshah.org/21232b/${username}`
          }
         else{
             document.getElementById("name").textContent = 'Type A Username ex : simplystudios'

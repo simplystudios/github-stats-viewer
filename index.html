@@ -24,6 +24,8 @@
     <meta name="twitter:description" content="Search github stats of anyone...">
     <meta name="twitter:image" content="/images/githubstatsposter.png">
     <meta name="twitter:card" content="summary_large_image">
+
+    <script src="https://kit.fontawesome.com/b2b2c57f30.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="heading">
@@ -51,6 +53,9 @@
             <p id="create"></p>
         </div>
         <h2 id="name">Search A Username...</h2>
+        <br>
+        <img id="commits" src="https://ghchart.rshah.org/21232b/simplystudios" alt="" width="400px">
+        <br>
         <iframe id="stat" src="https://github-readme-stats.vercel.app/api?username=simplystudios&theme=react&show_icons=true&hide_border=true&count_private=true"
             title="github stats"></iframe>
         <iframe id="streak" src="https://streak-stats.demolab.com?user=simplystudios&theme=react&show_icons=true&hide_border=true&count_private=true"
@@ -58,7 +63,33 @@
         <iframe id="languse"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=simplystudios&theme=react&show_icons=true&hide_border=true&layout=compact"
             title="github stats"></iframe>
+        
     </div>
+    <br>
+    <footer>
+        <br>
+        <div class="logo">
+            <img class="logoimg" src="/images/1f4ca.png" alt="" width="35px">
+            <a href="./" class="logo">Github Stats Viewer</a>
+        </div>
+        <br>
+    
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Github</a></li>
+                <li><a href="/about">Twitter</a></li>
+                <li><a href="/contact">Peerlist</a></li>
+            </ul>
+        </nav>
+        <br>
+        <div class="social-icons">
+            <a href="https://github.com/simplystudios/hinduwiki"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/hinduwiki"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    <br>
+    </footer>
 </body>
 <script src="app.js"></script>
 </html>
